@@ -79,7 +79,8 @@ Basically, there is a stack of scopes. The `data-each` attribute will duplicate 
 for each member of the specified array or Backbone collection, and will push each member onto
 the scope stack for expressions inside that element. To refer to the whole current scope, you can
 use a dot `.`. To refer to an element of a previous scope, prefix your path with a `.`. To
-access a property whose name is the value of another property, use brackets.
+access a property whose name is the value of another property, use brackets. The expression
+`[.PlayTypes[Type]]` above exemplifies both these points.
 
 Here are all the other attributes that look like `data-each`:
 
